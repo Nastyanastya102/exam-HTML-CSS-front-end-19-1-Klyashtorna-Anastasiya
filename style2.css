@@ -1,6 +1,9 @@
 html{
 	height: 100%;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 }
 *, *:after, *:before{
@@ -50,6 +53,10 @@ p{
 	line-height: 1.5em;
 	font-weight: 900;
 	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
@@ -212,19 +219,122 @@ main{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	margin-left: 4.3vw;
-	margin-top: -4%;
 	font-size: .5vw;
 	font-weight: 700;
 }
-.summer span{
+.link{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	top: 15%;
+	right: 32%;
+}
+.link p{
+	margin: 0;
+	display: inline-block;
+	font-size: .7vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin-bottom: 7px;
 	height: 2vw;
-	font-size: .9vw;
-	font-weight: 300;
 }
-.summer span:first-child{
+
+.link p:first-child{
 	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+
 }
+.link p:last-child{
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.click-left,
+.click-left1
+{
+	position: relative;
+	margin: 0;
+}
+.arrow1 {
+	display: block;
+	position: absolute;
+	top:3.5vw;
+	right: 0;
+	width: 39px;
+	height: 1px;
+	background-color: #000;
+}
+
+.arrow1:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	right:-.5px;
+	width: 4px;
+	height:1px;
+	background-color: #000;
+	transform: rotate(-45deg);
+	transform-origin: 100% 0%;
+}
+
+.arrow1:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: -1px;
+	width: 4px;
+	height:1px;
+	background-color: #000;
+	transform: rotate(45deg);
+	transform-origin: 100% 0%;
+}
+
+
+.arrow2 {
+	display: block;
+	position: absolute;
+	top: 1.34vw;
+	right: 0;
+	width: 36px;
+	height: 1px;
+	background-color: #fff;
+}
+
+.arrow2:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -3px;
+	right: 35px;
+	width: 4px;
+	height: 1px;
+	background-color: #fff;
+	transform: rotate(-45deg);
+	transform-origin: 100% 0%;
+}
+
+.arrow2:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 35px;
+	width: 4px;
+	height:1px;
+	background-color: #fff;
+	transform: rotate(45deg);
+	transform-origin: 100% 0%;
+}
+
 .suptitle h2{
 	color: rgb(23, 23, 23);
 	font-weight: bold;
@@ -287,7 +397,11 @@ main{
 	margin-left: 2%;
 }
 .flex-for-buttons a{
-	display: flex;	
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;	
 	margin-right: 14px;
 	border: 1px solid black;
 	border-radius: 50%;
@@ -433,7 +547,10 @@ main{
 	height: 5.4vw;
 }
 .time-card{
-	display: flex;
+	display: flex; display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 	justify-content: center;
 	margin-right: 1vw;
@@ -485,7 +602,10 @@ main{
 }
 .nav-flex{
 	width: 100%;
-	display: flex;
+	display: flex; display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	justify-content: space-between;
 	
 }
@@ -507,7 +627,10 @@ width: 61%;
 margin: 0 auto;
 }
 .flex-for-second-page{
-	display: flex;
+	display: flex; display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 100%;
@@ -653,7 +776,10 @@ margin: 0 auto;
 	position: absolute;
 	top: 0;
 	right: 13%;
-	display: flex;
+	display: flex; display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
@@ -692,6 +818,10 @@ margin: 0 auto;
 }
 .flex-for-third-page{
    display: flex;	
+    display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
    width: 100%;
    height: 26vw;
    justify-content: space-between;
@@ -731,7 +861,11 @@ margin: 0 auto;
 	left: 30%;
 }
 .flex-for-third-page-name{
-	display: flex;
+	display: flex; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 	margin: 7% 0 4%;
 	
@@ -804,7 +938,11 @@ margin: 0 auto;
  /* ...............................Стили для слайдера в 4 блоке.....................................  */
 .flex-for-second-third{
 	position: relative;
-	display: flex;
+	display: flex; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	justify-content: space-between;
 }
 .product-list-second img{
@@ -869,6 +1007,10 @@ border-radius: 50%;
 	 border-radius: 100px;
 	 padding: 13px 17px;
 	 display: flex;
+	 display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	 justify-content: center;
  }
 .triangle-right{
@@ -879,7 +1021,10 @@ border-radius: 50%;
 	left: -8%;
 }
 .button-under{
-	display: flex;
+	display: flex; display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	margin-top: 2.5vw;
 	justify-content: center;
 	position: relative;
@@ -962,7 +1107,11 @@ text-align: center;
 .flex-for-sidebar{
 	position: relative;
 	margin-top: 2.7vw;
-	display: flex;
+	display: flex; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	justify-content: space-between;
 	height: 22vw;
 }
@@ -1032,6 +1181,10 @@ text-align: center;
  /* ...............................Стили для контактной информации в подвале.....................................  */
 .contact-info{
 	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	margin-top: 4.5vw;
 	justify-content: space-between;
 	width: 98.2%;
@@ -1056,7 +1209,11 @@ text-align: center;
 .contact{
 	width: 20%;
 	padding-left: 0.5vw;
-	display: flex;
+	display: flex; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	flex-direction: column;
 }
 .contact p{
@@ -1116,6 +1273,24 @@ border-radius: 50%;
 }
 
 /*............................................Media..........................................................*/
+@media (max-width: 1500px){
+	.arrow1 {	
+		top: 51px;
+		right: 9px;
+		width: 30px;
+	}
+	.arrow2 {
+		top: 1vw;
+		right: 8px;
+		width: 30px;
+	}
+	.arrow2:after {	
+		right: 29px;
+	}
+	.arrow2:before {	
+		right: 29px;
+	}
+}
 @media (max-width: 1250px) {
 	.offer {
 		font-size: 1.6vw;
@@ -1128,6 +1303,12 @@ border-radius: 50%;
 	}
 	.btn-first {
 		left: -10%;
+	}
+	.arrow1 {	
+		display: none;
+	}
+	.arrow2 {
+		display: none;
 	}
 }
 @media (max-width: 900px) {
@@ -1365,6 +1546,10 @@ border-radius: 50%;
  }
  .pic-for-second-page{
 	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	margin: 0;
 	width: 100%;
 	height: 100%;
