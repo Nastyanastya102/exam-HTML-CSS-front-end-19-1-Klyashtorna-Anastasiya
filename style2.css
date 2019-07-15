@@ -31,6 +31,7 @@ header{
 p{
 	margin: 0;
 }
+ /* ...............................Стили для шапки.....................................  */
 .page-header,
 .li-for-icon ul,
 .li-for-nav 
@@ -143,18 +144,14 @@ main{
 	top: 14.3vw;
 	width: 3%;
 	height: 15%;
-
 }
-
-
 .follow{
 	text-align: center;
 }
-/*............................................Summer..........................................................*/
+/*............................................Summer (Блок с часами)..........................................................*/
 .main-page{
 	width: 100%;
 	background-color: #ededed;
-	/* overflow: hidden; */
 }
 
 .line{
@@ -162,9 +159,7 @@ main{
 	height: 5px;
 	background-color: #f3ebdc;
 }
-
 .main-pic{
-
 	margin-left: 3.3vw;
 }
 .image{
@@ -177,7 +172,6 @@ main{
 	width: 100%;
 	height: 100%;
 }
-
 .summer-collection{
 	width: 100%;
 	margin: 0 0 0 auto;
@@ -206,7 +200,6 @@ main{
 	flex-wrap: wrap;
 	padding-top: 9.5vw;
 	line-height: 5.8vw;
-
 }
 .summer div{
 	display: -webkit-flex;
@@ -241,7 +234,6 @@ main{
 	margin:0;
 	text-transform: uppercase;
 }
-
 .flex-mens-wear{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -262,6 +254,7 @@ main{
 	font-size: .8vw;
 	font-weight: 500;
 }
+ /* ...............................Стили Summer блок рекламы.....................................  */
 .black{
 	margin: 1.4vw 0 0 0;
 	width: 100%;
@@ -308,7 +301,7 @@ main{
 	border: 1px solid #1c85cc;
 }
 
-/*............................................Right pictures..........................................................*/
+/*............................................Правый блок рекламы Summer..........................................................*/
 .pic{
 	padding-top: 1.5vw;
 	display: -webkit-flex;
@@ -429,7 +422,7 @@ main{
 	color: #fff;
 }
 
-/*..................Time.........................*/
+/*..................................................Time Summer............................................*/
 .time{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -459,11 +452,9 @@ main{
 	font-weight: 800;
 	text-align: center;
 }
-
  .time-card span:first-child{
 	font-size: 2vw;
 }
-
 .time-card ul{
 	height: 100%;
 	display: -webkit-flex;
@@ -509,6 +500,7 @@ main{
 	-ms-transform: scale(1.4);
 	transform: scale(1.4);
 }
+ /* ...............................Стили для блока с 5-ти непропорциональными картинками.....................................  */
 .for-flex-pic{
 height: 27.8vw;
 width: 61%;
@@ -533,10 +525,8 @@ margin: 0 auto;
 }
 .about{
 	font-weight: 800;
-	color:#2d2b27;
-	
+	color:#2d2b27;	
 }
-
 .shose p{
 	font-size: 1.2vw;
 	width: 60%;
@@ -585,15 +575,13 @@ margin: 0 auto;
 	box-shadow: inset 0 0 0 3px #67818f31;
 
 }
-.black-buble{
-	
+.black-buble{	
 	width: 2.7vw;
     right: 13px;
     height: 2vw;
     position: absolute;
     top: 7px;
 }
-
 .men{
 	position: relative;
 	height: 48%;
@@ -649,8 +637,8 @@ margin: 0 auto;
 }
 .second-buble{
 	top: 1px;
-}
-
+} 
+/* ...............................Стили для голубого блока с кнопкой.....................................  */
 .bottom-pic{
 	width: 61%;
 	height: 13vw;
@@ -697,11 +685,11 @@ margin: 0 auto;
 	font-weight: 700;
 	border: 1px solid #2d2b27;
 }
+ /* ...............................Третий блок(слайдер).....................................  */
 .third-page{
 	width:61%;
 	margin: 0 auto;
 }
-
 .flex-for-third-page{
    display: flex;	
    width: 100%;
@@ -709,7 +697,6 @@ margin: 0 auto;
    justify-content: space-between;
    position: relative;
 }
-
 .product-list{
 	position: relative;
 	width: 31%;
@@ -769,15 +756,12 @@ margin: 0 auto;
     height: 2.3vw;
 	position: absolute;
 	font-size: 22px;
-
 }
-
 .slick-arrow:hover{
 	background-color: #535353;
 	color: #ededed;
 	font-size: 14px;
 	font-weight: 600;
-
 }
 .slick-prev{
     top: 43%;
@@ -797,7 +781,7 @@ margin: 0 auto;
 }
 
 
-
+ /* ...............................Стили для навигции 4 блока.....................................  */
 .second-third-page h2{
 	text-align: center;
 	font-size: 1.3vw;
@@ -817,6 +801,7 @@ margin: 0 auto;
     margin: 0vw auto 2.9vw;
 
 }
+ /* ...............................Стили для слайдера в 4 блоке.....................................  */
 .flex-for-second-third{
 	position: relative;
 	display: flex;
@@ -834,7 +819,6 @@ margin: 0 auto;
 .slick-initialized .slick-slide{
 	width: 4.5%;
 }
-
 .prev,
 .next {
   position: absolute;
@@ -921,6 +905,7 @@ border-radius: 50%;
 	letter-spacing: -1px;
 	font-weight: 600;
 }
+ /* ...............................Стили для 5 блока с двумя картинками....................................  */
 .subscribe{
 	margin-top: 4.7vw;
 	position: relative;
@@ -997,12 +982,12 @@ text-align: center;
 	border: 1.5px solid rgba(36, 34, 34, 0.637);;
 }
 .btn-second{
-right: -6%;
-top: 45%;
+   right: -6%;
+   top: 45%;
 }
 .btn-first{
-left: -8%;
-top: 43%;
+   left: -8%;
+   top: 43%;
 }
 .aside-text{
 	position: relative;
@@ -1021,11 +1006,11 @@ top: 43%;
 }
 .block-asidebar p{
 	 margin: 0;
-font-size: 1vw;
-font-weight: 600;
-text-transform: uppercase;
-line-height: 1.5vw;
-padding-left: 1.27vw;
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    padding-left: 1.27vw;
     letter-spacing: -.3px;
 }
 .block-asidebar span{
@@ -1033,6 +1018,7 @@ padding-left: 1.27vw;
 	font-style: italic;
 	font-family: Open Sans; 
 }
+ /* ...............................Стили для серого фона.....................................  */
 .grey{
 	content: "";
 	width: 98%;
@@ -1043,6 +1029,7 @@ padding-left: 1.27vw;
 	position: absolute;
 	top: 86.8%;
 }
+ /* ...............................Стили для контактной информации в подвале.....................................  */
 .contact-info{
 	display: flex;
 	margin-top: 4.5vw;
@@ -1054,7 +1041,6 @@ padding-left: 1.27vw;
 	width: 68.2%;
 	justify-content: space-between;
 }
-
 .contact-info h3{
 	letter-spacing: -1.4px;
 	font-size: .85vw;
@@ -1076,7 +1062,6 @@ padding-left: 1.27vw;
 .contact p{
 	font-size: .7vw;
 }
-
 .office{
 	margin-top: 15%;
 }
@@ -1085,7 +1070,7 @@ padding-left: 1.27vw;
 	line-height: 1.7vw;
 	font-size: .7vw;
 }
-
+ /* ...............................Стили для подвала.....................................  */
 .footer-for-page{
 	margin-top: 5.7vw;
 	width: 100%;
